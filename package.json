@@ -1,17 +1,33 @@
 {
   "name": "ridibooks-reading-note-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Unofficial ridibooks reading note API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "nvm": "~/.nvm/nvm-exec which node | xargs -J % ln -sf % ./.nvm-node && chmod +x ./.nvm-node"
   },
   "author": "Hyeonsu Lee <incleaf@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "cheerio": "^0.22.0",
     "request": "^2.81.0",
     "request-promise": "^4.2.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incleaf/ridibooks-reading-note-api.git"
+  },
+  "keywords": [
+    "crawler",
+    "ridibooks",
+    "node7",
+    "async",
+    "await"
+  ],
+  "bugs": {
+    "url": "https://github.com/incleaf/ridibooks-reading-note-api/issues"
+  },
+  "homepage": "https://github.com/incleaf/ridibooks-reading-note-api#readme"
 }

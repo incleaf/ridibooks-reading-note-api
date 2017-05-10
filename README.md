@@ -2,6 +2,14 @@
 
 Unofficial ridibooks reading note API
 
+## Install
+
+```shell
+$ npm install ridibooks-reading-note-api --save
+```
+
+> For yarn user: `yarn add ridibooks-reading-note-api`
+
 ## Usage
 
 ```javascript

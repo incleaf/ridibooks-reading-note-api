@@ -1,0 +1,17 @@
+{
+  "name": "ridibooks-reading-note-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nvm": "~/.nvm/nvm-exec which node | xargs -J % ln -sf % ./.nvm-node && chmod +x ./.nvm-node"
+  },
+  "author": "Hyeonsu Lee <incleaf@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}

@@ -1,3 +1,4 @@
 node_modules
 .DS_Stroe
 .nvm-node
+npm-debug.log
